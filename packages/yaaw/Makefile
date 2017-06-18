@@ -13,7 +13,7 @@ PKG_RELEASE:=1
 PKG_MAINTAINER:=nanpuyue <nanpuyue@gmail.com>
 
 PKG_SOURCE_PROTO:=git
-PKG_SOURCE_URL:=git://github.com/binux/yaaw.git
+PKG_SOURCE_URL:=git://github.com/aa65535/yaaw-zh-hans.git
 PKG_SOURCE_SUBDIR:=$(PKG_NAME)-$(PKG_VERSION)
 PKG_SOURCE_VERSION:=c23ae2456ec95778651411e5b148b836307f6d8d
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION)-$(PKG_SOURCE_VERSION).tar.gz
@@ -26,7 +26,7 @@ define Package/yaaw
   SUBMENU:=Download Manager
   DEPENDS:=+aria2
   TITLE:=Yet another aria2 web frontend
-  URL:=https://github.com/binux/yaaw
+  URL:=https://github.com/aa65535/yaaw-zh-hans
   PKGARCH:=all
 endef
 
