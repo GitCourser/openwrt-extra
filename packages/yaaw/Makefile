@@ -43,6 +43,7 @@ define Package/yaaw/install
 	$(CP) $(PKG_BUILD_DIR)/img $(1)/www/yaaw
 	$(CP) $(PKG_BUILD_DIR)/css $(1)/www/yaaw
 	$(CP) $(PKG_BUILD_DIR)/index.html $(1)/www/yaaw
+	$(CP) $(PKG_BUILD_DIR)/usage.html $(1)/www/yaaw
 	$(CP) $(PKG_BUILD_DIR)/offline.appcache $(1)/www/yaaw
 endef
 
