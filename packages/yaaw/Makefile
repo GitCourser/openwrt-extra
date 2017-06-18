@@ -8,7 +8,7 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=yaaw
-PKG_VERSION:=2014-07-12
+PKG_VERSION:=2017-06-18
 PKG_RELEASE:=1
 PKG_MAINTAINER:=nanpuyue <nanpuyue@gmail.com>
 
